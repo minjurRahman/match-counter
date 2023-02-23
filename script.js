@@ -12,7 +12,7 @@ function addNewMatch(){
                         <button class="lws-delete">
                             <img src="./image/delete.svg" alt="" />
                         </button>
-                        <h3 class=" lws-matchName"></h3>Match-${addMatchList.children.length}</h3>
+                        <h3 class=" lws-matchName">Match ${addMatchList.children.length+1}</h3>
                     </div>
                     <div class="inc-dec">
                         <form onsubmit="submitFormIncrement(event)" id="increment${addMatchList.children.length}-count${addMatchList.children.length}" class="incrementForm">
